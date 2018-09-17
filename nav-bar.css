@@ -1,0 +1,22 @@
+@import url('https://www.fontsmarket.com/font-details/microsoft-jhenghei');
+.nav-bar {
+  background-color: rgba(187, 176, 247,0.8);
+  height: 100%;
+  width: 13rem;
+  display: block;
+  position: fixed;
+}
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+  font-family: Microsoft JhengHei;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 7rem;
+  text-align: center;
+  padding: 3rem;
+}
+.nav-bar a:hover {
+  text-shadow: 6px 6px 6px #b366ff;
+  font-style: italic;
+}

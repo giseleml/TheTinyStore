@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://www.fontsmarket.com/font-details/microsoft-jhenghei');
+.main-content {
+  display: block;
+}
+.main-content #welcome {
+  font-family: 'Sacramento', cursive;
+  font-size: 65px;
+  color:#d9b3ff;
+  text-align: center;
+}
+.main-content #account {
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  color: #867979;
+  text-align: center;
+}
+body {
+  background-color: rgb(255, 230, 230);
+}
+@media (max-width: 850px)
+  {
+    .nav-bar
+    {
+      display: inline-table;
+      position: relative;
+      height: auto;
+      width: auto;
+    }
+    .frames {
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
