@@ -1,0 +1,99 @@
+.frames {
+  display: flex;
+  justify-content: center;
+}
+.frames img {
+  margin-top: 3rem;
+  width: 230px;
+  height: 230px;
+  border-style: double;
+  border-color: rgba(187, 176, 247, 0.8);
+}
+.frames img:hover {
+  opacity: 0.8;
+}
+@media (max-width: 850px) {
+  .frames {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.nav-bar {
+  background-color: rgba(187, 176, 247, 0.8);
+  height: 100%;
+  width: 13rem;
+  display: block;
+  position: fixed;
+  text-align: center;
+}
+@media (max-width: 850px) {
+  .nav-bar {
+    display: inline-table;
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-family: Microsoft JhengHei;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 7rem;
+  padding: 3rem;
+}
+.nav-bar a:hover {
+  text-shadow: 6px 6px 6px #b366ff;
+  font-style: italic;
+}
+.nav-bar img {
+  padding: 5px;
+}
+.clickTransformation {
+  transform: translateY(4px);
+  box-shadow: 0px 5px #666;
+}
+.signin,
+.signup {
+  color: white;
+  background-color: #cc99ff;
+  font-size: 23px;
+  font-family: Microsoft jhenghei;
+  text-align: center;
+  border-style: solid;
+  border-color: #ccb3ff;
+  border-radius: 4px;
+  border-width: thin;
+  padding: 15px 30px;
+  box-shadow: 0px 9px #b3b3b3;
+  align-content: center;
+}
+.signin:hover,
+.signup:hover {
+  background-color: #d9b3ff;
+}
+.signin:active,
+.signup:active {
+  transform: translateY(4px);
+  box-shadow: 0px 5px #666;
+}
+.titles {
+  text-align: center;
+}
+.main-content {
+  display: block;
+}
+.main-content .welcome {
+  font-family: 'Sacramento', cursive;
+  font-size: 65px;
+  color: #cc99ff;
+}
+.main-content .account {
+  font-family: Microsoft JhengHei;
+  font-size: 15px;
+  color: #867979;
+}
+body {
+  background-color: #ffe6e6;
+}

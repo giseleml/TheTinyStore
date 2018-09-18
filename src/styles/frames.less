@@ -1,0 +1,21 @@
+.frames {
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin-top: 3rem;
+    width: 230px;
+    height: 230px;
+    border-style: double;
+    border-color: rgba(187, 176, 247,0.8);
+  }
+
+  img:hover{
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 850px){
+    flex-direction: column;
+    align-items: center;
+  }
+}

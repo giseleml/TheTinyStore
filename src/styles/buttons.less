@@ -1,0 +1,27 @@
+@import "colors";
+.clickTransformation {
+  transform: translateY(4px);
+  box-shadow: 0px 5px #666;
+};
+.signin, .signup {
+  color: white;
+  background-color: @bgSign;
+  font-size: 23px;
+  font-family: Microsoft jhenghei;
+  text-align: center;
+  border-style: solid;
+  border-color: #ccb3ff;
+  border-radius: 4px;
+  border-width: thin;
+  @paddingSize: 15px;
+  padding: @paddingSize (@paddingSize * 2);
+  box-shadow: 0px 9px #b3b3b3;
+  align-content: center;
+ }
+ .signin:hover, .signup:hover {
+  background-color: @hoverButtonColor;
+}
+
+ .signin:active, .signup:active {
+  .clickTransformation();
+}
