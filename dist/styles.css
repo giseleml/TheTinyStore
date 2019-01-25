@@ -23,7 +23,7 @@
   height: 100%;
   width: 13rem;
   display: block;
-  position: fixed;
+  position: absolute;
   text-align: center;
 }
 @media (max-width: 850px) {
@@ -40,7 +40,7 @@
   font-family: Microsoft JhengHei;
   font-size: 23px;
   font-weight: bold;
-  line-height: 7rem;
+  line-height: 6.5rem;
   padding: 3rem;
 }
 .nav-bar a:hover {
